@@ -28,9 +28,9 @@ class CommentItem extends Bitrix24Entity
 	 * @param $filter array
 	 * @return array
 	 */
-	public function getList($taskId, $order, $filter)
+	public function getList($taskId, $order = [], $filter = [])
 	{
-		$result = $this->client->call('task.commentitem.getmanifest',
+		$result = $this->client->call('task.commentitem.getlist',
 			array(
 			'TASKID' => $taskId,
 			'ORDER' => $order,

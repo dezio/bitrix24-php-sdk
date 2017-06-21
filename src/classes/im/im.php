@@ -45,4 +45,10 @@ class Im extends Bitrix24Entity
 		);
 		return $fullResult;
 	}
+	
+	public function test()
+	{
+		$fullResult = $this->client->call('user.get', array());
+		return $fullResult;
+	}
 }
