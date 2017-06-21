@@ -3,12 +3,12 @@
     "description": "A powerfull PHP library for the Bitrix24 REST API",
     "keywords": ["Bitrix24", "PHP", "REST", "API"],
     "type": "library",
-    "homepage": "https://github.com/mesilov/bitrix24-php-sdk",
+    "homepage": "https://github.com/dezio/bitrix24-php-sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": "Maxim Mesilov",
-            "homepage": "https://github.com/mesilov/"
+            "name": "Dennis Ziolkowski",
+            "homepage": "https://github.com/dezio/"
         }
     ],
     "require": {
